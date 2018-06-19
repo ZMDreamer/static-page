@@ -1,0 +1,649 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    /* 取消轮廓线  */
+}
+
+.header {
+    width: 100%;
+    height: 40px;
+    background: #333;
+}
+
+.banxin {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.header div {
+    line-height: 40px;
+}
+
+.l-side li {
+    float: left;
+}
+
+.header li a {
+    padding: 0 8px;
+    color: #B0B0B0;
+    font-size: 12px;
+    border-left: 1px solid #3B4040;
+}
+
+.header li a:hover {
+    color: #FF7916;
+}
+
+.l-side li:first-child a {
+    border: 0;
+    padding-left: 0;
+}
+
+.r-side li {
+    float: right;
+}
+
+.r-side li:first-child a {
+    border: 0;
+    padding-right: 0;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    background: #424242;
+    display: block;
+}
+
+.r-side li:last-child a {
+    border: 0;
+}
+
+.nav {
+    height: 56px;
+    margin: 24px auto 22px;
+}
+
+.nav img {
+    float: left;
+}
+
+.nav ul {
+    margin-left: 243px;
+    line-height: 56px;
+}
+
+.nav li a {
+    padding-left: 20px;
+    float: left;
+    color: #333;
+}
+
+.nav li a:hover {
+    color: #FF7916;
+}
+
+.nav .search {
+    height: 46px;
+    width: 294px;
+    /* background-color:skyblue; */
+    float: right;
+    border: 1px solid #E0E0E0;
+    position: relative;
+}
+
+.search input[type=text] {
+    height: 46px;
+    width: 244px;
+    float: left;
+    border-right: 1px solid #E0E0E0;
+}
+
+.search input[type=submit] {
+    height: 46px;
+    width: 49px;
+    float: left;
+    background: url(images/sousuo.png) no-repeat center center;
+}
+
+.search span {
+    font-size: 14px;
+    background-color: #EFEFEF;
+}
+
+.search span:nth-child(2) {
+    position: absolute;
+    right: 60px;
+    bottom: 50%;
+    margin-bottom: -8px;
+}
+
+.search span:first-child {
+    position: absolute;
+    left: 60px;
+    bottom: 50%;
+    margin-bottom: -8px;
+}
+
+.banner {
+    height: 460px;
+    background: url(images/hongmi.jpg) no-repeat center;
+}
+
+.banner-l {
+    height: 460px;
+    width: 234px;
+    background: rgba(98, 93, 88, .8);
+    float: left;
+}
+
+.banner-l li a {
+    line-height: 42px;
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    padding-left: 28px;
+}
+
+.banner-l ul {
+    margin-top: 23px;
+}
+
+.banner-l ul span {
+    float: right;
+    padding-right: 23px;
+    font-family: Arial;
+}
+
+.banner-l li a:hover {
+    background-color: #FF7916;
+}
+
+.banner-r {
+    height: 460px;
+    width: 992px;
+    float: left;
+    position: relative;
+}
+
+.banner-r a {
+    display: block;
+    overflow: hidden;
+    width: 31px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+}
+
+.banner-r a:hover {
+    background: #FF7916;
+}
+
+.banner-r a:first-child {
+    right: 0;
+    width: 30px;
+}
+
+.banner-r a:last-child {
+    left: 0;
+}
+
+.banner-r ul li {
+    height: 10px;
+    width: 10px;
+    float: left;
+    border-radius: 50%;
+    background: #938C83;
+    margin-left: 10px;
+}
+
+.banner-r ul {
+    position: absolute;
+    bottom: 25px;
+    right: 35px;
+}
+
+.banner-r ul li:hover {
+    background-color: #FF7916;
+}
+
+.box {
+    height: 170px;
+    margin-top: 14px;
+}
+
+.box li {
+    float: left;
+    margin-right: 14px;
+}
+
+.box li:last-child {
+    margin-right: 0;
+}
+
+.product {
+    height: 383px;
+    margin-top: 44px;
+}
+
+.pd-header {
+    height: 40px;
+}
+
+.product h2 {
+    float: left;
+    font-weight: normal;
+    color: #625D58;
+}
+
+.product .header-r {
+    float: right;
+    height: 20px;
+    line-height: 17px;
+    width: 60px;
+    margin-top: 5px;
+    border: 1px solid #E0E2E4;
+}
+
+.header-r a:first-child {
+    color: #E2E0E0;
+    height: 20px;
+    border-right: 1px solid #E0E2E4;
+    width: 29px;
+    float: left;
+    font-family: Arial;
+}
+
+.header-r a:last-child {
+    float: left;
+    width: 30px;
+    height: 20px;
+    font-family: Arial;
+    color: #E2E0E0;
+    text-align: right;
+}
+
+.header-r a:hover {
+    background: #FF7916;
+}
+
+.goods li {
+    width: 234px;
+    height: 342px;
+    background-color: #FAFAFA;
+    float: left;
+    margin-right: 14px;
+    text-align: center;
+}
+
+.goods li:nth-child(1) {
+    border-top: 1px solid #FFAC13;
+}
+
+.goods li:nth-child(2) {
+    border-top: 1px solid #83C44E;
+}
+
+.goods li:nth-child(3) {
+    border-top: 1px solid #2196F3;
+}
+
+.goods li:nth-child(4) {
+    border-top: 1px solid #E53935;
+}
+
+.goods li:nth-child(5) {
+    border-top: 1px solid #00C0A5;
+}
+
+.goods li img {
+    margin-top: 34px;
+}
+
+.goods li h4 {
+    font-size: 14px;
+    font-weight: normal;
+    height: 22px;
+    margin-top: 36px
+}
+
+.goods li p {
+    font-size: 12px;
+    color: #BCB0C8;
+    height: 32px;
+}
+
+.goods ul li span {
+    color: #FF6738;
+}
+
+.goods li:last-child {
+    margin-right: 0;
+}
+
+.pages {
+    width: 100%;
+    margin-top: 36px;
+    background: #F5F5F5;
+    overflow: hidden;
+}
+
+.appliance {
+    height: 656px;
+    margin-top: 76px;
+}
+
+.appliance-hd h2 {
+    height: 40px;
+    float: left;
+    font-weight: normal;
+    color: #333;
+}
+
+.appliance-hd a {
+    float: right;
+    color: #424242;
+    margin-right: 30px;
+}
+
+.appliance-hd a:nth-child(2) {
+    margin-right: 0;
+}
+
+.appliance-hd a:hover {
+    border-bottom: 2px solid #FF6700;
+    color: #FF6700;
+}
+
+.appliance-l {
+    width: 234px;
+    margin-right: 14px;
+    float: left;
+}
+
+.appliance-r {
+    height: 616px;
+    width: 978px;
+    float: right;
+    overflow: hidden;
+    /* background-color: pink; */
+}
+
+.appliance-r li {
+    width: 234px;
+    height: 299px;
+    float: left;
+    margin-right: 14px;
+    position: relative;
+}
+
+.appliance-r li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.appliance-b li {
+    margin-top: 14px;
+}
+
+.appliance-r li span {
+    width: 64px;
+    height: 20px;
+    background: url(images/littlefw.fw.png) no-repeat;
+    background-position: 0 0;
+    position: absolute;
+    right: 50%;
+    margin-right: -32px;
+}
+
+.bottom {
+    height: 442px;
+    margin-top: 56px;
+    background-color: #FFF;
+}
+
+.bottom a:hover {
+    color: #FF6700;
+}
+
+.bt-nav {
+    width: 1226px;
+    height: 80px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.bt-nav a {
+    width: 242px;
+    text-align: center;
+    height: 25px;
+    display: block;
+    float: left;
+    margin-top: 30px;
+    color: #616161;
+    border-right: 1px solid #E0E0E0;
+    position: relative;
+}
+
+.bt-nav a:last-child span {
+    border: 0;
+}
+
+.bt-nav a span {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    margin-left: 44px;
+}
+
+.bt-nav a:nth-child(1) span {
+    background: url(images/littlefw.fw.png) no-repeat;
+    background-position: 0 -70px;
+}
+
+.bt-nav a:nth-child(2) span {
+    background: url(images/littlefw.fw.png) no-repeat;
+    background-position: 0 -109px;
+}
+
+.bt-nav a:nth-child(3) span {
+    background: url(images/littlefw.fw.png) no-repeat;
+    background-position: 0 -233px;
+}
+
+.bt-nav a:nth-child(4) span {
+    background: url(images/littlefw.fw.png) no-repeat;
+    background-position: 0 -163px;
+}
+
+.bt-nav a:nth-child(5) span {
+    background: url(images/littlefw.fw.png) no-repeat;
+    background-position: 0 -208px;
+}
+
+.footer {
+    margin-top: 40px;
+}
+
+.footer dl {
+    float: left;
+}
+
+.footer dl dt {
+    width: 160px;
+    height: 44px;
+}
+
+.footer dl dt a {
+    font-size: 14px;
+    color: #424242;
+}
+
+.footer dl dd {
+    width: 160px;
+    height: 30px;
+}
+
+.footer dl dd a {
+    font-size: 12px;
+    color: #757575;
+}
+
+.footer-r {
+    width: 252px;
+    height: 122px;
+    border-left: 2px solid #E0E0E0;
+    float: right;
+    text-align: center;
+}
+
+.footer-r h3 {
+    font-weight: normal;
+    height: 28px;
+    color: #FF6700;
+}
+
+.footer-r p {
+    font-size: 14px;
+    height: 20px;
+    color: #616161;
+}
+
+.footer-r a {
+    width: 118px;
+    height: 26px;
+    line-height: 26px;
+    border: 2px solid #FF6700;
+    display: block;
+    font-size: 12px;
+    color: #FF6700;
+    text-align: center;
+    margin: 10px auto 0;
+    position: relative;
+}
+.footer-r a:hover {
+    background-color: #FF6700;
+    color: white;
+}
+
+.footer-r a span {
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    left: 4px;
+    bottom: 50%;
+    margin-bottom: -7px;
+    background: url(images/littlefw.fw.png) no-repeat;
+    background-position: 0 -329px;
+}
+.dibu {
+    height: 56px;
+    margin-top: 50px;
+    position: relative;
+}
+.dibu img {
+    float: left;
+}
+.dibu .notes {
+    float: left;
+    width: 612px; 
+    margin-left: 10px;
+}
+.dibu .notes a {
+    float: left;
+    font-size: 12px;
+    color: #757575;
+    border-right: 1px solid #757575;
+    padding: 0 5px;
+    line-height: 18px;
+    
+}
+.dibu .notes a:nth-child(12) {
+    border: 0;
+}
+.dibu .notes a:hover {
+    color:#FF6700;
+}
+.dibu .notes p {
+    font-size: 12px;
+    float: left;
+    color: #BABACC;
+    line-height: 18px;  
+}
+.certificate {
+    width: 376px;
+    height: 56px;
+    float: right;
+}
+.certificate a {
+    width: 59px;
+    height: 32px;
+    float: left;
+    font-size: 12px;
+    margin-left: 35px;
+    color: #757575;
+    position: relative;
+    
+}
+.certificate a .one {
+    width: 75px;
+    height: 27px;
+    position: absolute;
+    left: -20px;
+    background: url(images/littlefw.fw.png) no-repeat;
+    background-position: 0 -288px; 
+}
+.certificate a .two {
+    width: 31px;
+    height: 27px;
+    position: absolute;
+    left: -35px;
+    background: url(images/littlefw.fw.png) no-repeat;
+    background-position: 0 -381px; 
+}
+.certificate a .three {
+    width: 21px;
+    height: 22px;
+    position: absolute;
+    left: -24px;
+    background: url(images/littlefw.fw.png) no-repeat;
+    background-position: 0 -356px; 
+}
+.certificate a .four {
+    width: 18px;
+    height: 20px;
+    position: absolute;
+    left: -24px;
+    background: url(images/littlefw.fw.png) no-repeat;
+    background-position: 0 -266px; 
+}
+.last-step {
+    width: 266px;
+    height: 23px;
+    background: url(images/last-step.png) no-repeat center;
+    float:left;
+   margin: 27px 388px;
+    
+}

@@ -1,0 +1,283 @@
+
+.banner {
+   height: 480px;
+}
+/* 左边部分begin */
+.banner-l {
+    width: 190px;
+    height: 480px;
+    background: #6E6568;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+}
+.banner-l ul a {
+    color: #fff;
+   
+}
+.banner-l ul {
+    margin-top: 15px;
+}
+.banner-l ul li {
+    line-height: 28px;
+    padding-left: 12px;
+}
+.banner-l li:hover {
+    background-color: #868695;
+}
+.banner-l li a:hover {
+    color: #f10215;
+}
+.ad {
+    width: 250px;
+    height: 480px;
+    position: absolute;
+    left: -250px;
+    top: 0;
+}
+.ad-r {
+    width: 0px;
+    height: 480px;
+    position: absolute;
+    left: 250px;
+    top: 0;
+    background:url(../images/ad-r.jpg) no-repeat;
+    z-index: 999;
+    transition: all 0.8s;
+}
+.ad:hover .ad-r {
+    width: 990px;
+}
+/* 左边部分end */
+/* 中间部分start */
+.banner-m {
+    height: 480px;
+    margin-left: 10px;
+}
+.m-top {
+    height: 340px;
+    position: relative;
+    width: 790px;
+    overflow: hidden;
+    
+    
+    
+}
+.banner-pic ul  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 340px;
+    width: 90000px;
+}
+.banner-pic ul li {
+    float: left;
+    width: 790px;
+    height: 340px;
+}
+ .arrow {
+    display: none;
+}
+.arrow-l,
+.arrow-r 
+{
+    font-family: "icomoon";
+    font-size: 30px;
+    color: #fff;
+     width: 30px;
+     height: 60px;
+     background: rgba(0, 0, 0, .3);
+     position: absolute;
+     text-align: center;
+     line-height: 60px;
+     top: 50%;
+     transform: translateY(-50%);
+}
+.arrow-l
+ {
+   left: 0;
+}
+.arrow-r {
+    right: 0;
+}
+.circle {
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color:#EBE0DE;
+}
+.circle li  {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #fff;
+    float: left;
+    margin: 3px 4px 0 4px;
+}
+ .circle .current  {
+    background-color: #f10215;
+}
+
+.m-bottom {
+    margin-top: 10px;
+}
+.m-bottom img {
+    vertical-align: middle;
+}
+
+/* 中间部分结束 over */
+/* 右边部分开始start */
+.banner-r {
+    width: 190px;
+    height: 480px;
+    position: relative;
+    /* background-color: pink; */
+}
+.slide {
+    width: 36px;
+    height: 215px;
+    background-color: #7A6E6E;
+    position: absolute;
+    right: -78px;
+    top: 0;
+}
+.slide li {
+    width: 36px;
+    height: 35px;
+    border-bottom: 1px solid #fff;
+    border-radius: 3px;
+    background: url(../images/toolbars.png) no-repeat;
+}
+.slide li:nth-child(1) {
+    background-position: -94px -211px;
+}
+.topRight {
+    width: 190px;
+    height: 114px;
+    border-bottom: 1px solid #E6E6E6;
+    font-size:12px;
+    color: #666;
+    position: relative;
+}
+.login {
+    width: 90px;
+    height: 60px;
+    line-height: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 16px 0 0 76px;
+    
+
+}
+.login a {
+    color: #666;
+}
+.login .photo {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    background:url(../images/sprite_userinfo@1x.png) no-repeat -70px 0;
+}
+.photo img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.login a:hover {
+    color: #f10215;
+}
+.vip {
+    padding-left: 20px;
+}
+.vip a {
+    color: #f10215;
+    font-size: 14px;
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    border: 2px solid #f10215;
+    text-align: center;
+}
+.vip a:hover {
+    background-color: #f10215;
+    color: #fff;
+}
+
+.promition {
+    width: 162px;
+    height: 142px;
+    margin: 0 auto;
+}
+.pr-head {
+    height: 25px;
+    border-bottom: 1px solid #E6E6E6;
+    font-size: 14px;
+    line-height: 25px;
+    position: relative;
+
+}
+.pr-head span {
+    padding: 0 8px;
+    color: #E6E6E6;
+}
+.pr-head div {
+    width: 30px;
+    height: 2px;
+    background-color: #f10215;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+.introduction {
+    padding-top: 12px;
+    display: none;
+}
+.introduction.show {
+     display: block;
+}
+.introduction li {
+    font-size: 12px;
+    line-height: 24px;
+}
+.table {
+    width: 192px;
+    border-top: 1px solid #E6E6E6;
+}
+.table li {
+    width: 47px;
+    height: 69px;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    border-right: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    position: relative;
+   
+}
+.table li i {
+    display:block;
+    height: 45px;
+    font-family: "icomoon";
+    box-sizing: border-box;
+    padding-top: 14px;
+    font-size: 18px;
+}
+.table li strong {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    background: url(../images/sprite_userinfo@1x.png) no-repeat 0 -50px;
+
+}
+/* 右边部分结束over */
